@@ -1,0 +1,54 @@
+# =========================
+# Java / Spring Boot
+# =========================
+
+backend/target/
+backend/.mvn/
+*.class
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+*.env
+application-local.properties
+application-prod.properties
+
+# =========================
+# React / Vite
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production.local
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Build
+# =========================
+
+build/
+out/
